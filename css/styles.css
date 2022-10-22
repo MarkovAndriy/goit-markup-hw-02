@@ -16,27 +16,42 @@
 .front-logo {
     color: #2196F3;
 }
-.header-list-link {
+.header-list-item{
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+}
+.header-list-link {
+   
     color: #212121;
 }
-.list-active-link {
+.list-active-link:hover, .list-active-link:focus {
     color: #2196F3;
 }
 .header-mail-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+   
+    color: #757575;
+}
+.mail-active-link:hover, .mail-active-link:focus {
     color: #2196F3;
 }
 .header-tel-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
+   
     color: #757575;
+}
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    color: #FFFFFF;
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    color: #FFFFFF;
 }
