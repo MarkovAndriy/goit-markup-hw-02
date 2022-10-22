@@ -102,6 +102,11 @@
 .footer {
     background: #2F303A;
 }
+.footer-logo {
+    font-family: "Raleway";
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .address-item {
     font-style: normal;
     font-weight: 400;
