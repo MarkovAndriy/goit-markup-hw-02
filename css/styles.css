@@ -110,19 +110,25 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.address-item {
+.address-item { 
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
 .address-map-link {
     color: #FFFFFF;
 }
-
-<!--Портфоліо-->
+.address-mail-link {
+    color:inherit;
+}
+.address-tel-link {
+    color:inherit;
+}
+          <!--Сторінка Портфоліо-->
 
 .filters-button {
     font-weight: 500;
