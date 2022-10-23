@@ -19,7 +19,7 @@
 .header-list-item{
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16 / 14);
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .header-list-link {
@@ -49,7 +49,7 @@
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 / 44);
+    line-height: 1.36;
     color: #FFFFFF;
 }
 .button {
@@ -58,12 +58,12 @@
 .hero-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(30 / 16);
+    line-height: 1.87;
     color: #FFFFFF;
 }
 .benefits-title {
     font-size: 14px;
-    line-height: calc(16 / 14);
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -71,34 +71,34 @@
 }
 .benefits-text {
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .profile-title {
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
 
 }
 .team-title {
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.16;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19 / 16);
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .team-profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(19 / 16);
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -114,7 +114,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
@@ -133,7 +133,7 @@
 .filters-button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -141,14 +141,14 @@
 .projects-list-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .projects-list-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
