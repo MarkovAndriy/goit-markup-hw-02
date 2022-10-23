@@ -52,6 +52,9 @@
     line-height: calc(60 / 44);
     color: #FFFFFF;
 }
+.button {
+    cursor: pointer;
+}
 .hero-button {
     font-weight: 700;
     font-size: 16px;
@@ -111,10 +114,32 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 .address-map-link {
     color: #FFFFFF;
+}
+.filters-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.projects-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.projects-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
