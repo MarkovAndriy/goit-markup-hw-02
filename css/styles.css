@@ -1,6 +1,6 @@
 :root {
  --main-color: #212121;
- --link-colr: #757575;
+ --link-color: #757575;
  --active-color: #2196F3;
  --background-footer-color: #2F303A;
 }
@@ -38,14 +38,14 @@
 }
 .header-mail-link {
    
-    color: var(--link-colr);
+    color: var(--link-color);
 }
 .active-link:hover, .active-link:focus {
     color: var(--active-color);
 }
 .header-tel-link {
    
-    color: var(--link-colr);
+    color: var(--link-color);
 }
 .active-link:hover, .active-link:focus {
     color: var(--active-color);
@@ -80,7 +80,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--link-colr);
+    color: var(--link-color);
 }
 .profile-title {
     font-size: 36px;
@@ -107,7 +107,7 @@
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: var(--link-colr);
+    color: var(--link-color);
 }
 .footer {
     background: var(--background-footer-color);
@@ -157,5 +157,5 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--link-colr);
+    color: var(--link-color);
 }
