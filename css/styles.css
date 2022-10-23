@@ -1,3 +1,10 @@
+:root {
+ --main-color: #212121;
+ --link-colr: #757575;
+ --active-color: #2196F3;
+ --background-footer-color: #2F303A;
+}
+
 .body {
     font-family: "Roboto", sans-serif ;
 }
@@ -14,7 +21,7 @@
     text-decoration: none;
 }
 .front-logo {
-    color: #2196F3;
+    color: var(--active-color);
 }
 .header-list-item{
     font-weight: 500;
@@ -24,24 +31,24 @@
 }
 .header-list-link {
    
-    color: #212121;
+    color: var(--main-color);
 }
 .list-active-link:hover, .list-active-link:focus {
-    color: #2196F3;
+    color: var(--active-color);
 }
 .header-mail-link {
    
-    color: #757575;
+    color: var(--link-colr);
 }
 .active-link:hover, .active-link:focus {
-    color: #2196F3;
+    color: var(--active-color);
 }
 .header-tel-link {
    
-    color: #757575;
+    color: var(--link-colr);
 }
 .active-link:hover, .active-link:focus {
-    color: #2196F3;
+    color: var(--active-color);
 }
 .hero {
     background: #2F303A;
@@ -66,44 +73,44 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--main-color);
     
 }
 .benefits-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--link-colr);
 }
 .profile-title {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 
 }
 .team-title {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 .team-profession {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--link-colr);
 }
 .footer {
-    background: #2F303A;
+    background: var(--background-footer-color);
 }
 .footer-logo {
     font-family: "Raleway";
@@ -136,19 +143,19 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 .projects-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
 }
 .projects-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--link-colr);
 }
